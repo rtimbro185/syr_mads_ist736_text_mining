@@ -1,0 +1,1 @@
+apply work manager machine

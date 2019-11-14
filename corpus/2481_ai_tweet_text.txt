@@ -1,0 +1,1 @@
+instead calling locker combinations call locker permutations
