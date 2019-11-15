@@ -109,3 +109,4 @@ venv.bak/
 **/logs
 **/models
 **/output
+.bak
