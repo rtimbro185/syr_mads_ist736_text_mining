@@ -1,4 +1,4 @@
-# mads_syr_ist736_text_mining
+# syr_mads_ist736_text_mining
 Syracuse University, Masters of Applied Data Science - IST 736 Text Mining
 
 COURSE SYLLABUS IST 736 Text Mining 
