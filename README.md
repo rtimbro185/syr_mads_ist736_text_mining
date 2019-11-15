@@ -9,9 +9,6 @@
                                   **SYRACUSE UNIVERSITY School of Information Studies**
                                            **IST - 736 Text Mining**     
 
-COURSE SYLLABUS IST 736 Text Mining 
-Instructor: Bei Yu 
-
 **Prerequisite:** <br>
 IST 687: Introduction to Data Science. The purpose of setting up this prerequisite is to ensure that incoming students have basic programming and algorithmic thinking skills. Exceptions may be given to students who have acquired equivalent skills. 
 Audience: Graduate students. 
