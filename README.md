@@ -6,6 +6,9 @@
 ### IST 736 Text Mining - Fall 2019
 ### SYLLABUS
 
+                                  **SYRACUSE UNIVERSITY School of Information Studies**
+                                           **IST - 736 Text Mining**     
+
 COURSE SYLLABUS IST 736 Text Mining 
 Instructor: Bei Yu 
 
@@ -46,3 +49,5 @@ NLP and TM do share some foundations. NLP focuses on deep analysis of language, 
 Course Schedule:
 
 ![Schedule](./images/schedule.png)
+
+[SYRACUSE UNIVERSITY School of Information Studies](https://ischool.syr.edu/)
