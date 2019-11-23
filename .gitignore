@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.project
+.pydevproject
+.settings
+
 
 # C extensions
 *.so
@@ -104,9 +108,10 @@ venv.bak/
 .mypy_cache/
 
 # custom
+**/data
 **/corpus
 **/config
 **/logs
 **/models
 **/output
-.bak
+*.bak
