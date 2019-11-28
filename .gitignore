@@ -114,4 +114,12 @@ venv.bak/
 **/logs
 **/models
 **/output
+**/for_hand_in
+**/archive
+**/images
 *.bak
+*Untitled*
+*.docx
+*-Copy*
+*test*
+*example*
