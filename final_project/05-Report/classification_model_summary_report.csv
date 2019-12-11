@@ -1,0 +1,31 @@
+Model_Type,Category,Vectorizer,N_Gram,Experiment_Model_Name,Dataset_Version,Cross_Folds,Prediction_Accuracy,Total_Prediction_Points,Test_Recall_Score_Avg,Test_Precision_Score_Avg,Train_Recall_Score_Avg,Train_Precision_Score_Avg,Total_Build_Time,Total_Predict_Time,Confusion_Matrix
+Multinomial_Naive_Bayes,task_1,count,unigram,task1_mnb_cnt_vec_unigram_v1,v1,10,84.07,3905,0.822,0.8274,0.8821,0.8866,0.1242,0.0024,"[[ 530   66   84]
+ [  59 1410  201]
+ [  72  140 1343]]"
+LinearSVM,task_1,count,unigram,task1_svm_cnt_vec_unigram_v1,v1,10,90.73,3905,0.9003,0.9189,0.9954,0.9972,5.5715,0.0008,"[[ 578   77   56]
+ [  23 1522   60]
+ [  27  119 1443]]"
+Multinomial_Naive_Bayes,task_2,count,unigram,task2_mnb_cnt_vec_unigram_v1,v1,10,83.33,3905,0.8226,0.8262,0.886,0.8919,0.0947,0.0011,"[[ 544   86   80]
+ [  65 1361  233]
+ [  53  134 1349]]"
+Multinomial_Naive_Bayes,task_2,count,bigram,task2_mnb_cnt_vec_bigram_v1,v1,10,84.1,3905,0.8443,0.8478,0.9047,0.9099,0.1792,0.0015,"[[ 562   68   87]
+ [  54 1410  200]
+ [  45  167 1312]]"
+LinearSVM,task_2,count,unigram,task2_svm_cnt_vec_unigram_v1,v1,10,90.99,3905,0.8963,0.9165,0.9951,0.9967,7.3672,0.0014,"[[ 590   74   40]
+ [  29 1535   56]
+ [  27  126 1428]]"
+LinearSVM,task_2,count,bigram,task2_svm_cnt_vec_bigram_v1,v1,10,90.6,3905,0.8956,0.9141,0.9969,0.9979,9.7347,0.002,"[[ 584   81   52]
+ [  26 1558   66]
+ [  22  120 1396]]"
+LinearSVM,task_3,count,unigram,task3_svm_cnt_vec_unigram_v1,v1,10,92.42,1953,0.9133,0.9312,0.9877,0.9923,7.9983,0.001,"[[282  37  22]
+ [  9 788  22]
+ [  9  49 735]]"
+LinearSVM,task_3,count,bigram,task3_svm_final_cnt_vec_bigram_v1,v1,10,91.4,1953,0.905,0.9218,0.9932,0.996,7.389,0.0017,"[[295  40  22]
+ [  9 770  32]
+ [ 11  54 720]]"
+LinearSVM,task_4,tfidf,unigram,task4_svm_tfidf_vec_unigram_bool_v1,v1,10,89.3,3905,0.8755,0.9043,0.9588,0.9733,5.4828,0.0014,"[[ 576   79   56]
+ [  30 1488   98]
+ [  13  142 1423]]"
+LinearSVM,task_4,tfidf,bigram,task4_svm_tfidf_vec_bigram_bool_v1,v1,10,89.73,3905,0.8853,0.9138,0.9697,0.9795,5.126,0.0022,"[[ 532   67   64]
+ [  20 1541   99]
+ [  21  130 1431]]"

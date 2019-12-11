@@ -1,0 +1,505 @@
+Model Name:----------------------------- task2_mnb_cnt_vec_unigram_v1
+Model Name:----------------------------- task2_mnb_cnt_vec_unigram_v1
+Build Time: ---------------------------- [0.3878188999997292]
+Fit Time:------------------------------- [array([0.01096845, 0.01495242, 0.01097083, 0.01496577, 0.01296854,
+       0.01098156, 0.01296782, 0.01296592, 0.0149703 , 0.01396322])] | Avg:[[0.013067483901977539]]
+Score Time:----------------------------- [array([0.00199485, 0.00399971, 0.00299311, 0.00494957, 0.00398755,
+       0.00497627, 0.00299096, 0.00498509, 0.00498676, 0.00299144])] | Avg:[[0.0038855314254760743]]
+Test Recall Scores:--------------------- [array([0.65023625, 0.64770463, 0.6460446 , 0.6584071 , 0.64856089,
+       0.66134197, 0.64471917, 0.63803567, 0.64402005, 0.65461621])] | Avg:[[0.6493686546249622]]
+Test Precision Scores:------------------ [array([0.72242688, 0.73472948, 0.72901738, 0.73180593, 0.72975266,
+       0.73748335, 0.7101067 , 0.70846455, 0.71406246, 0.72946624])] | Avg:[[0.7247315628434043]]
+Train Recall Scores:-------------------- [array([0.70954456, 0.70843208, 0.70929621, 0.70690509, 0.7104415 ,
+       0.70781291, 0.71006466, 0.70886889, 0.71239619, 0.70979683])] | Avg:[[0.7093558923754915]]
+Train Precision Scores:----------------- [array([0.78991955, 0.78973741, 0.78892463, 0.78788546, 0.79048279,
+       0.78797197, 0.79119628, 0.79029117, 0.7902404 , 0.7900788 ])] | Avg:[[0.7896728456098752]]
+
+ Top and Bottome 10 of Most POSITIVE Learned Words 
+	-10.9087	aaaand         		-4.9792	thanks         
+	-10.9087	aadv           		-4.9148	patriots       
+	-10.9087	aadvantage     		-4.9024	amp            
+	-10.9087	aano           		-4.7862	gopdebates     
+	-10.9087	abandon        		-4.7539	october        
+	-10.9087	abandoned      		-4.1801	gopdebate      
+	-10.9087	abbott         		-3.9812	deshaun        
+	-10.9087	abolish        		-3.9705	texans         
+	-10.9087	aborting       		-3.9437	watson         
+	-10.9087	abraham        		-3.8850	houston        
+
+
+ Top and Bottome 10 of Most NEGATIVE Learned Words 
+	-11.4719	abidos         		-5.3086	cancelled      
+	-11.4719	abilities      		-5.2795	like           
+	-11.4719	abou           		-5.2755	watson         
+	-11.4719	academy        		-5.2513	texans         
+	-11.4719	acceptance     		-5.1475	fox            
+	-11.4719	accomplished   		-5.0358	trump          
+	-11.4719	achilles       		-4.8518	amp            
+	-11.4719	activated      		-4.1124	flight         
+	-11.4719	activists      		-3.9517	gopdebates     
+	-11.4719	activitiesprevention		-3.4719	gopdebate      
+
+
+Predict Time:--------------------------- [0.004139300000133517]
+
+Total Number of points | Misslabeled Points: [15417] | [4339]
+Percent Mislabeled:--------------------- [0.2814425634040345]
+Percent Accurately Labeled:------------- [0.7185574365959655]
+Confusion Matrix: 
+[[7200  321  258]
+ [1901 1936  414]
+ [1135  310 1942]]
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+    negative       0.70      0.93      0.80      7779
+     neutral       0.75      0.46      0.57      4251
+    positive       0.74      0.57      0.65      3387
+
+   micro avg       0.72      0.72      0.72     15417
+   macro avg       0.73      0.65      0.67     15417
+weighted avg       0.73      0.72      0.70     15417
+
+
+Model Name:----------------------------- task2_mnb_cnt_vec_bigram_v1
+Build Time: ---------------------------- [0.3805427999996027]
+Fit Time:------------------------------- [array([0.01396561, 0.01695538, 0.01295376, 0.01196766, 0.01894832,
+       0.01795197, 0.01396251, 0.01197147, 0.01196957, 0.01495743])] | Avg:[[0.014560365676879882]]
+Score Time:----------------------------- [array([0.00301671, 0.00399017, 0.00398898, 0.00398946, 0.00299144,
+       0.00498724, 0.00299096, 0.00298953, 0.00299144, 0.00302172])] | Avg:[[0.0034957647323608397]]
+Test Recall Scores:--------------------- [array([0.64178274, 0.68147206, 0.66473477, 0.67442267, 0.66285826,
+       0.68975661, 0.67041309, 0.66976537, 0.66344831, 0.67052276])] | Avg:[[0.668917662236246]]
+Test Precision Scores:------------------ [array([0.72390593, 0.76460616, 0.74517515, 0.75274951, 0.75186678,
+       0.77617771, 0.74947368, 0.76822588, 0.75228184, 0.75452861])] | Avg:[[0.7538991244964376]]
+Train Recall Scores:-------------------- [array([0.74379239, 0.74125418, 0.7437275 , 0.74085012, 0.74228541,
+       0.74039704, 0.74375262, 0.74236058, 0.74311846, 0.7430371 ])] | Avg:[[0.7424575405713278]]
+Train Precision Scores:----------------- [array([0.83177164, 0.83145488, 0.83234418, 0.83082944, 0.83150526,
+       0.82899304, 0.83037693, 0.83078424, 0.83123073, 0.83215882])] | Avg:[[0.8311449156230155]]
+
+ Top and Bottome 10 of Most POSITIVE Learned Words 
+	-11.5258	aaaand         		-5.5318	patriots       
+	-11.5258	aaand          		-5.5318	thanks         
+	-11.5258	aaand question 		-5.4390	gopdebates     
+	-11.5258	aadvantage     		-5.4121	october        
+	-11.5258	aadvantage number		-4.8140	gopdebate      
+	-11.5258	aafail         		-4.6180	deshaun watson 
+	-11.5258	aaron donald   		-4.6090	deshaun        
+	-11.5258	aaron rogers   		-4.5778	watson         
+	-11.5258	aaron wilson   		-4.5597	texans         
+	-11.5258	abandon        		-4.5191	houston        
+
+
+ Top and Bottome 10 of Most NEGATIVE Learned Words 
+	-11.9453	aadfw          		-5.7652	watson         
+	-11.9453	aadfw gma      		-5.7367	texans         
+	-11.9453	aadvantage number		-5.7109	cancelled      
+	-11.9453	aaron donald   		-5.6120	gopdebate gopdebates
+	-11.9453	aaron rogers   		-5.5685	fox            
+	-11.9453	ability anticipate		-5.4745	trump          
+	-11.9453	ability let    		-5.4320	amp            
+	-11.9453	ability makes  		-4.5993	flight         
+	-11.9453	able change    		-4.3930	gopdebates     
+	-11.9453	able recognize 		-3.9382	gopdebate      
+
+
+Predict Time:--------------------------- [0.007916200000181561]
+
+Total Number of points | Misslabeled Points: [15417] | [4232]
+Percent Mislabeled:--------------------- [0.2745021729259908]
+Percent Accurately Labeled:------------- [0.7254978270740092]
+Confusion Matrix: 
+[[7246  274  200]
+ [1924 1960  355]
+ [1182  297 1979]]
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+    negative       0.70      0.94      0.80      7720
+     neutral       0.77      0.46      0.58      4239
+    positive       0.78      0.57      0.66      3458
+
+   micro avg       0.73      0.73      0.73     15417
+   macro avg       0.75      0.66      0.68     15417
+weighted avg       0.74      0.73      0.71     15417
+
+
+Model Name:----------------------------- task2_svm_cnt_vec_unigram_v1
+Build Time: ---------------------------- [29.561772299999575]
+Fit Time:------------------------------- [array([3.1559155 , 5.31522703, 3.25927567, 2.44495106, 2.27150178,
+       2.40073442, 2.54450226, 2.72363877, 3.00876713, 2.23057938])] | Avg:[[2.9355093002319337]]
+Score Time:----------------------------- [array([0.        , 0.00399089, 0.00299001, 0.00199413, 0.00199413,
+       0.00199556, 0.00299025, 0.00195575, 0.00199938, 0.00303364])] | Avg:[[0.0022943735122680662]]
+Test Recall Scores:--------------------- [array([0.7285786 , 0.72044809, 0.7209721 , 0.7231124 , 0.71748688,
+       0.72782765, 0.6969786 , 0.70667809, 0.7105257 , 0.70293929])] | Avg:[[0.7155547399850333]]
+Test Precision Scores:------------------ [array([0.73363835, 0.72210856, 0.72053659, 0.73088663, 0.71925569,
+       0.73172699, 0.70428996, 0.70836661, 0.71489208, 0.71122213])] | Avg:[[0.719692359319631]]
+Train Recall Scores:-------------------- [array([0.91236433, 0.91363064, 0.91294075, 0.91657128, 0.91359032,
+       0.91420095, 0.91525563, 0.91504205, 0.91546904, 0.9144317 ])] | Avg:[[0.9143496696893193]]
+Train Precision Scores:----------------- [array([0.92043812, 0.92163906, 0.92060075, 0.92197383, 0.92105099,
+       0.92062573, 0.92411929, 0.92166052, 0.9224576 , 0.92161225])] | Avg:[[0.9216178132367343]]
+
+ Top and Bottome 10 of Most POSITIVE Learned Words 
+	-1.7483	depressing     		1.5863	lauren         
+	-1.6202	cuban          		1.6082	bold           
+	-1.6062	bot            		1.6905	outstanding    
+	-1.5268	feud           		1.7617	shooter        
+	-1.5013	socialmedia    		1.7850	exceptional    
+	-1.4948	ruining        		1.7982	fears          
+	-1.4587	proving        		1.8330	kudos          
+	-1.4556	focused        		1.8685	charleston     
+	-1.4501	blatant        		1.8759	interrupting   
+	-1.4485	oops           		2.2514	monica         
+
+
+ Top and Bottome 10 of Most NEGATIVE Learned Words 
+	-1.9663	merited        		1.5612	brief          
+	-1.9306	storage        		1.5988	punch          
+	-1.8595	dal            		1.6275	beginning      
+	-1.8354	pregnant       		1.6384	loss           
+	-1.7580	reacting       		1.6576	ruining        
+	-1.7170	kudos          		1.6579	mayock         
+	-1.6667	iphone         		1.7525	shock          
+	-1.6525	compliment     		1.7853	messed         
+	-1.6497	path           		2.1728	feud           
+	-1.6416	reserves       		2.4799	injury         
+
+
+Predict Time:--------------------------- [0.002920099999755621]
+
+Total Number of points | Misslabeled Points: [15417] | [3970]
+Percent Mislabeled:--------------------- [0.25750794577414543]
+Percent Accurately Labeled:------------- [0.7424920542258546]
+Confusion Matrix: 
+[[6322  986  530]
+ [1050 2640  402]
+ [ 538  464 2485]]
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+    negative       0.80      0.81      0.80      7838
+     neutral       0.65      0.65      0.65      4092
+    positive       0.73      0.71      0.72      3487
+
+   micro avg       0.74      0.74      0.74     15417
+   macro avg       0.72      0.72      0.72     15417
+weighted avg       0.74      0.74      0.74     15417
+
+
+Model Name:----------------------------- task2_svm_cnt_vec_bigram_v1
+Build Time: ---------------------------- [45.58823339999981]
+Fit Time:------------------------------- [array([4.84533787, 4.18011451, 4.54781461, 3.54098868, 4.35287476,
+       6.75319815, 4.01954174, 4.1472919 , 5.26341128, 3.71624899])] | Avg:[[4.5366822481155396]]
+Score Time:----------------------------- [array([0.0029943 , 0.00199485, 0.00300074, 0.00199533, 0.00301766,
+       0.00299144, 0.00200057, 0.        , 0.0019958 , 0.00299406])] | Avg:[[0.0022984743118286133]]
+Test Recall Scores:--------------------- [array([0.74262392, 0.72045893, 0.71530143, 0.72654974, 0.72608557,
+       0.72370646, 0.73361926, 0.72122999, 0.7209667 , 0.70579203])] | Avg:[[0.7236334035043914]]
+Test Precision Scores:------------------ [array([0.7423511 , 0.72385525, 0.71827781, 0.73396433, 0.72276616,
+       0.72262902, 0.74120102, 0.72950585, 0.72621978, 0.71035799])] | Avg:[[0.7271128289583039]]
+Train Recall Scores:-------------------- [array([0.96373366, 0.9638483 , 0.96248182, 0.96347608, 0.96300299,
+       0.96342481, 0.96324755, 0.96292712, 0.9635192 , 0.96368519])] | Avg:[[0.9633346728734372]]
+Train Precision Scores:----------------- [array([0.96536854, 0.96504889, 0.96524363, 0.96568765, 0.9655217 ,
+       0.96548313, 0.96427901, 0.9639346 , 0.9647508 , 0.96635543])] | Avg:[[0.9651673379496393]]
+
+ Top and Bottome 10 of Most POSITIVE Learned Words 
+	-1.6037	playing field  		1.4199	contrast       
+	-1.4003	hosts          		1.4312	gfc            
+	-1.3364	gopdebate good 		1.4615	thnx           
+	-1.3299	worst          		1.4683	thank          
+	-1.2975	fuck           		1.4820	fantastic      
+	-1.2937	thanks gopdebate		1.4894	excited        
+	-1.2611	oak            		1.4923	activate       
+	-1.2458	best friend    		1.4962	sweet          
+	-1.2244	clarification  		1.5354	loved          
+	-1.2202	fiorina moves  		1.5797	past years     
+
+
+ Top and Bottome 10 of Most NEGATIVE Learned Words 
+	-1.5961	takeaways      		1.3586	messed         
+	-1.5752	worries        		1.3720	disgusting     
+	-1.4688	sense gopdebate		1.3782	worst          
+	-1.4605	vegas stop     		1.4249	platitudes     
+	-1.4474	christie gopdebate		1.4516	badservice     
+	-1.4412	flights dfw    		1.4631	like hillary   
+	-1.4123	repeal doddfrank		1.5133	feud           
+	-1.4037	agents flights 		1.5445	equality gopdebate
+	-1.3927	coming gopdebate		1.6082	bully          
+	-1.3741	sweet          		1.6418	airlines future
+
+
+Predict Time:--------------------------- [0.0035092999996777507]
+
+Total Number of points | Misslabeled Points: [15417] | [3968]
+Percent Mislabeled:--------------------- [0.25737821884932216]
+Percent Accurately Labeled:------------- [0.7426217811506779]
+Confusion Matrix: 
+[[6318  997  498]
+ [1103 2687  373]
+ [ 518  479 2444]]
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+    negative       0.80      0.81      0.80      7813
+     neutral       0.65      0.65      0.65      4163
+    positive       0.74      0.71      0.72      3441
+
+   micro avg       0.74      0.74      0.74     15417
+   macro avg       0.73      0.72      0.72     15417
+weighted avg       0.74      0.74      0.74     15417
+
+
+Model Name:----------------------------- task2_mnb_cnt_vec_unigram_v1
+Build Time: ---------------------------- [0.26008070000000316]
+Fit Time:------------------------------- [array([0.00897741, 0.00897312, 0.00897646, 0.00797844, 0.00797915,
+       0.02258492, 0.00698137, 0.00797868, 0.00797963, 0.00897717])] | Avg:[[0.009738636016845704]]
+Score Time:----------------------------- [array([0.00495052, 0.00299096, 0.00199413, 0.00199437, 0.00110674,
+       0.00299168, 0.00299191, 0.00199461, 0.00199342, 0.00199294])] | Avg:[[0.0025001287460327147]]
+Test Recall Scores:--------------------- [array([0.65503131, 0.6501891 , 0.61797271, 0.64981174, 0.65050348,
+       0.62881324, 0.64871086, 0.64974002, 0.66315523, 0.65446116])] | Avg:[[0.6468388837464565]]
+Test Precision Scores:------------------ [array([0.71982556, 0.7243092 , 0.70534806, 0.72274977, 0.7346024 ,
+       0.71481166, 0.72027231, 0.72644339, 0.7318354 , 0.73770517])] | Avg:[[0.7237902918976716]]
+Train Recall Scores:-------------------- [array([0.70758466, 0.70860631, 0.70808302, 0.70722703, 0.70735936,
+       0.70419231, 0.70931841, 0.70961085, 0.70742634, 0.70872793])] | Avg:[[0.7078136212187834]]
+Train Precision Scores:----------------- [array([0.78895738, 0.79105528, 0.79168821, 0.79125462, 0.79189757,
+       0.78993985, 0.79230784, 0.79136455, 0.78708004, 0.78762248])] | Avg:[[0.7903167811262644]]
+
+ Top and Bottome 10 of Most POSITIVE Learned Words 
+	-10.8836	aaaand         		-5.0400	patriots       
+	-10.8836	aaand          		-4.9809	thanks         
+	-10.8836	aacom          		-4.9487	amp            
+	-10.8836	aadv           		-4.8128	october        
+	-10.8836	aadvantage     		-4.7900	gopdebates     
+	-10.8836	aano           		-4.1841	gopdebate      
+	-10.8836	abandon        		-3.9848	deshaun        
+	-10.8836	abandoned      		-3.9472	watson         
+	-10.8836	abandoning     		-3.9110	texans         
+	-10.8836	abbott         		-3.8457	houston        
+
+
+ Top and Bottome 10 of Most NEGATIVE Learned Words 
+	-11.4760	aacom          		-5.3318	like           
+	-11.4760	aadfw          		-5.3022	watson         
+	-11.4760	abou           		-5.2775	cancelled      
+	-11.4760	abq            		-5.2241	texans         
+	-11.4760	absence        		-5.1374	fox            
+	-11.4760	academics      		-5.1027	trump          
+	-11.4760	acceptance     		-4.8519	amp            
+	-11.4760	accomplished   		-4.1076	flight         
+	-11.4760	accrue         		-3.9248	gopdebates     
+	-11.4760	accused        		-3.4756	gopdebate      
+
+
+Predict Time:--------------------------- [0.0029628999999999905]
+
+Total Number of points | Misslabeled Points: [15417] | [4393]
+Percent Mislabeled:--------------------- [0.2849451903742622]
+Percent Accurately Labeled:------------- [0.7150548096257379]
+Confusion Matrix: 
+[[7133  320  292]
+ [1923 1870  415]
+ [1139  304 2021]]
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+    negative       0.70      0.92      0.80      7745
+     neutral       0.75      0.44      0.56      4208
+    positive       0.74      0.58      0.65      3464
+
+   micro avg       0.72      0.72      0.72     15417
+   macro avg       0.73      0.65      0.67     15417
+weighted avg       0.72      0.72      0.70     15417
+
+
+Model Name:----------------------------- task2_mnb_cnt_vec_bigram_v1
+Build Time: ---------------------------- [0.40427940000000717]
+Fit Time:------------------------------- [array([0.01695204, 0.01301336, 0.01894975, 0.01097059, 0.00997353,
+       0.01196837, 0.01795292, 0.01296496, 0.01097059, 0.01595855])] | Avg:[[0.013967466354370118]]
+Score Time:----------------------------- [array([0.00502038, 0.        , 0.0039885 , 0.00299191, 0.00299168,
+       0.00199461, 0.00498796, 0.00299215, 0.00299168, 0.00598121])] | Avg:[[0.003394007682800293]]
+Test Recall Scores:--------------------- [array([0.65706504, 0.67087516, 0.66455909, 0.67156297, 0.66189033,
+       0.67732148, 0.6818601 , 0.68279799, 0.6732814 , 0.65696257])] | Avg:[[0.6698176130862443]]
+Test Precision Scores:------------------ [array([0.73653671, 0.76101248, 0.74370097, 0.74184863, 0.74299544,
+       0.76080802, 0.76116189, 0.76191009, 0.75806389, 0.73438627])] | Avg:[[0.7502424413560692]]
+Train Recall Scores:-------------------- [array([0.74712957, 0.74722784, 0.74609028, 0.74663284, 0.74543446,
+       0.74353954, 0.74515707, 0.74629756, 0.74683041, 0.74558608])] | Avg:[[0.7459925652136672]]
+Train Precision Scores:----------------- [array([0.82968256, 0.83001416, 0.82948499, 0.83012008, 0.8291185 ,
+       0.82847663, 0.83098047, 0.82852815, 0.82832782, 0.82902453])] | Avg:[[0.8293757882874802]]
+
+ Top and Bottome 10 of Most POSITIVE Learned Words 
+	-11.5083	aadvantage     		-5.5422	patriots       
+	-11.5083	aafail         		-5.4946	thanks         
+	-11.5083	aaron donald   		-5.4446	october        
+	-11.5083	aaron wilson   		-5.3947	gopdebates     
+	-11.5083	abandon        		-4.8187	gopdebate      
+	-11.5083	abandon conservative		-4.6466	deshaun watson 
+	-11.5083	abbott         		-4.6341	deshaun        
+	-11.5083	abbott paralyzed		-4.6076	watson         
+	-11.5083	able check     		-4.5779	texans         
+	-11.5083	able hold      		-4.5062	houston        
+
+
+ Top and Bottome 10 of Most NEGATIVE Learned Words 
+	-11.9471	aaron donald   		-5.7527	texans         
+	-11.9471	aaron plays    		-5.7010	cancelled      
+	-11.9471	aaron rogers   		-5.6895	watson         
+	-11.9471	abidos         		-5.6192	gopdebate gopdebates
+	-11.9471	abidos africa  		-5.6033	fox            
+	-11.9471	ability anticipate		-5.5419	trump          
+	-11.9471	ability let    		-5.3432	amp            
+	-11.9471	ability makes  		-4.5392	flight         
+	-11.9471	able leave     		-4.4210	gopdebates     
+	-11.9471	able recognize 		-3.9726	gopdebate      
+
+
+Predict Time:--------------------------- [0.005985699999996541]
+
+Total Number of points | Misslabeled Points: [15417] | [4179]
+Percent Mislabeled:--------------------- [0.2710644094181747]
+Percent Accurately Labeled:------------- [0.7289355905818253]
+Confusion Matrix: 
+[[7299  283  193]
+ [1889 1936  305]
+ [1154  355 2003]]
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+    negative       0.71      0.94      0.81      7775
+     neutral       0.75      0.47      0.58      4130
+    positive       0.80      0.57      0.67      3512
+
+   micro avg       0.73      0.73      0.73     15417
+   macro avg       0.75      0.66      0.68     15417
+weighted avg       0.74      0.73      0.71     15417
+
+
+Model Name:----------------------------- task2_svm_cnt_vec_unigram_v1
+Build Time: ---------------------------- [38.17793689999996]
+Fit Time:------------------------------- [array([4.36132836, 3.77342081, 4.0981493 , 5.58334827, 2.9784236 ,
+       3.53506112, 3.75334644, 3.39210701, 3.19035244, 3.31061912])] | Avg:[[3.797615647315979]]
+Score Time:----------------------------- [array([0.00302148, 0.0019958 , 0.00199461, 0.00299072, 0.00199771,
+       0.00299358, 0.00299716, 0.00498343, 0.00199509, 0.00199366])] | Avg:[[0.002696323394775391]]
+Test Recall Scores:--------------------- [array([0.7100976 , 0.70464331, 0.73736133, 0.72008542, 0.71571912,
+       0.69801024, 0.72023396, 0.7125332 , 0.69897256, 0.72473995])] | Avg:[[0.7142396685149307]]
+Test Precision Scores:------------------ [array([0.72093479, 0.70211389, 0.73241149, 0.71895801, 0.71938647,
+       0.7055094 , 0.72656921, 0.71458322, 0.69858067, 0.73792515])] | Avg:[[0.7176972293624522]]
+Train Recall Scores:-------------------- [array([0.9140089 , 0.91269631, 0.9145216 , 0.91591225, 0.91428334,
+       0.91547749, 0.913756  , 0.91503583, 0.91402243, 0.91099587])] | Avg:[[0.9140710009801488]]
+Train Precision Scores:----------------- [array([0.92042878, 0.9211615 , 0.92198658, 0.92392222, 0.92147276,
+       0.92385654, 0.92117553, 0.92255951, 0.92136582, 0.92190213])] | Avg:[[0.9219831358776137]]
+
+ Top and Bottome 10 of Most POSITIVE Learned Words 
+	-2.2175	fyi            		1.6472	thankfully     
+	-2.1915	promise        		1.6704	ogg            
+	-2.0225	manually       		1.6810	rock           
+	-1.9509	fantasygopdebates		1.7040	fallon         
+	-1.9012	oak            		1.7072	payment        
+	-1.7823	bot            		1.8020	exceptional    
+	-1.6566	disappointed   		1.8141	suggests       
+	-1.6266	announced      		1.8773	dominates      
+	-1.6263	hack           		1.9722	winning        
+	-1.6200	notifying      		1.9731	obamaclinton   
+
+
+ Top and Bottome 10 of Most NEGATIVE Learned Words 
+	-2.1713	divided        		1.6732	pull           
+	-2.1674	resolutions    		1.7101	shock          
+	-2.1565	strippers      		1.7696	ridiculous     
+	-1.9057	forces         		1.7812	alarm          
+	-1.8991	barackobama    		1.8459	reacts         
+	-1.8482	impression     		1.9658	hurting        
+	-1.8013	trail          		1.9680	hire           
+	-1.6808	athletic       		1.9746	mayock         
+	-1.6025	commentary     		2.0670	injury         
+	-1.5931	flier          		2.1062	acceptable     
+
+
+Predict Time:--------------------------- [0.0023411000000237436]
+
+Total Number of points | Misslabeled Points: [15417] | [3940]
+Percent Mislabeled:--------------------- [0.2555620419017967]
+Percent Accurately Labeled:------------- [0.7444379580982032]
+Confusion Matrix: 
+[[6316  977  470]
+ [1123 2698  384]
+ [ 544  442 2463]]
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+    negative       0.79      0.81      0.80      7763
+     neutral       0.66      0.64      0.65      4205
+    positive       0.74      0.71      0.73      3449
+
+   micro avg       0.74      0.74      0.74     15417
+   macro avg       0.73      0.72      0.73     15417
+weighted avg       0.74      0.74      0.74     15417
+
+
+Model Name:----------------------------- task2_svm_cnt_vec_bigram_v1
+Build Time: ---------------------------- [50.587581899999975]
+Fit Time:------------------------------- [array([7.75856423, 4.75568414, 4.3575089 , 4.36915398, 4.43612504,
+       4.65919232, 7.81367373, 4.29124832, 3.98088336, 3.92615533])] | Avg:[[5.034818935394287]]
+Score Time:----------------------------- [array([0.00299144, 0.002841  , 0.00299191, 0.00299382, 0.00298834,
+       0.00597787, 0.0039928 , 0.        , 0.        , 0.00199485])] | Avg:[[0.0026772022247314453]]
+Test Recall Scores:--------------------- [array([0.72091827, 0.73400884, 0.73235347, 0.73230229, 0.73551996,
+       0.71279283, 0.72270284, 0.71902441, 0.71146864, 0.72201095])] | Avg:[[0.7243102487778449]]
+Test Precision Scores:------------------ [array([0.72472239, 0.73178172, 0.73332903, 0.72912714, 0.73924551,
+       0.71498128, 0.72445682, 0.72370515, 0.72609328, 0.72036751])] | Avg:[[0.7267809833980493]]
+Train Recall Scores:-------------------- [array([0.96427271, 0.96361283, 0.96447891, 0.96479271, 0.96404568,
+       0.96442674, 0.96487035, 0.96431351, 0.96416423, 0.96442449])] | Avg:[[0.9643402153892913]]
+Train Precision Scores:----------------- [array([0.96758898, 0.96589297, 0.96539546, 0.96438163, 0.96499214,
+       0.96601101, 0.96562627, 0.96488275, 0.96483705, 0.96597548])] | Avg:[[0.965558373931224]]
+
+ Top and Bottome 10 of Most POSITIVE Learned Words 
+	-1.4807	amazing customer		1.3789	accrue         
+	-1.3638	swamped        		1.3915	lovely         
+	-1.2581	hack           		1.4009	rocket         
+	-1.2551	airport ready  		1.4091	thank          
+	-1.2233	rate           		1.4228	like deshaun   
+	-1.2115	comedy         		1.4236	contrast       
+	-1.1935	horrifying     		1.4569	activate       
+	-1.1893	yes thank      		1.4782	gopdebate attack
+	-1.1749	fine fly       		1.6350	excited        
+	-1.1594	trump best     		1.6408	favs           
+
+
+ Top and Bottome 10 of Most NEGATIVE Learned Words 
+	-1.7195	hours bag      		1.3660	worst          
+	-1.5429	customer feedback		1.3808	dallas new     
+	-1.5206	takeaways      		1.3894	worstflightever
+	-1.4639	gopdebate suppose		1.4032	worse          
+	-1.3647	century        		1.4294	depressing     
+	-1.3585	nominate       		1.4334	annoying       
+	-1.3529	standing gopdebate		1.4608	saving grace   
+	-1.3497	accrue         		1.5025	washington post
+	-1.3320	supposed fly   		1.5063	denied         
+	-1.3112	airport agents 		1.5639	loudest        
+
+
+Predict Time:--------------------------- [0.004411700000048313]
+
+Total Number of points | Misslabeled Points: [15417] | [3927]
+Percent Mislabeled:--------------------- [0.2547188168904456]
+Percent Accurately Labeled:------------- [0.7452811831095544]
+Confusion Matrix: 
+[[6305 1045  461]
+ [1034 2671  424]
+ [ 535  428 2514]]
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+    negative       0.80      0.81      0.80      7811
+     neutral       0.64      0.65      0.65      4129
+    positive       0.74      0.72      0.73      3477
+
+   micro avg       0.75      0.75      0.75     15417
+   macro avg       0.73      0.73      0.73     15417
+weighted avg       0.75      0.75      0.75     15417
+
+
