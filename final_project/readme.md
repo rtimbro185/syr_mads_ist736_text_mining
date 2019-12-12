@@ -3,9 +3,12 @@
 **Topic:** Public Sentiment Toward NFL Team, Coach, Player - Can public opinion aid in predicting the accuracy of weekly NFL Fantasy Football Player's fantasy projection scores? <br>
 **Date:** 12/8/2019 <br>
 
-**Programming Languages:** Python - Anaconda 3<br>
+**Programming Languages:** Python - Anaconda 3 <br>
+**APIs**: Twitter Premium Search, Twitter Standard Streaming
 **Machine Learning Algorithms:** <br>
-**Machine Learning Packages:** <br>
+	* Classifiers: Multinomial Naive Bayes (MNB), Support Vector Machine (SVM)<br>
+**Machine Learning Packages:** sklearn.svm.LinearSVC, sklearn.naive_bayes.MultinomialNB <br>
+**Other Notable Packages:** nltk,pandas,numpy,sklearn.feature_extraction.text.CountVectorizer,sklearn.feature_extraction.text.TfidfVectorizer <br>
 
 
 # Project Requirements:
@@ -63,13 +66,9 @@ Mining Twitter for tweets on specific NFL characters.<br>
 			* [Data Model Raw Tweets](./03-Build/data_engineering_pipeline/process_raw_twitter_data_from_file.ipynb)
 	
 #### Step 3:<br>
-* [Tweet text Classification Modeling](./03-Build/classification_modeling/) <br>
-
+* [Classification Modeling](./03-Build/classification_modeling/) - Experimentation with selecting the best modeling algorithm for this task.<br>
 	* Code: <br>
 		* [Primary Classification Modeling Experimentation - MNB and SVM](./03-Build/classification_modeling/classification_modeling_mnb_svm.ipynb) <br>
 		* [Vedar Sentiment Classification](./03-Build/classification_modeling/classify_train_nfl_master.ipynb) <br>
 		* [Create Training Test Data Sets](./03-Build/classification_modeling/create_train_test_nfl_master.ipynb) <br>
-
-
-
 
