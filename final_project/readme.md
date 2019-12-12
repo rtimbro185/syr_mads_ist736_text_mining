@@ -7,7 +7,7 @@
 **APIs**: Twitter Premium Search, Twitter Standard Streaming <br>
 **Machine Learning Algorithms:** <br>
 	* Classifiers: Multinomial Naive Bayes (MNB), Support Vector Machine (SVM)<br>
-**Machine Learning Packages:** sklearn.svm.LinearSVC, sklearn.naive_bayes.MultinomialNB <br>
+**Machine Learning Packages:** sklearn.svm.LinearSVC, sklearn.naive_bayes.MultinomialNB, sklearn.decomposition.LatentDirichletAllocation <br>
 **Other Notable Packages:** nltk, pandas, numpy, sklearn.feature_extraction.text.CountVectorizer, sklearn.feature_extraction.text.TfidfVectorizer <br>
 
 
@@ -71,4 +71,9 @@ Mining Twitter for tweets on specific NFL characters.<br>
 		* [Primary Classification Modeling Experimentation - MNB and SVM](./03-Build/classification_modeling/classification_modeling_mnb_svm.ipynb) <br>
 		* [Vedar Sentiment Classification](./03-Build/classification_modeling/classify_train_nfl_master.ipynb) <br>
 		* [Create Training Test Data Sets](./03-Build/classification_modeling/create_train_test_nfl_master.ipynb) <br>
+		
+#### Step 4: <br>
+* [Topic Modeling](./03-Build/topic_modeling/) <br>
+	* Code: <br>
+	* [NFL Types Topic Modeling](./03-Build/topic_modeling/nfl_tweets_topic_modeling.ipynb) <br>
 
