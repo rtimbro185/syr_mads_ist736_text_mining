@@ -4,11 +4,11 @@
 **Date:** 12/8/2019 <br>
 
 **Programming Languages:** Python - Anaconda 3 <br>
-**APIs**: Twitter Premium Search, Twitter Standard Streaming
+**APIs**: Twitter Premium Search, Twitter Standard Streaming <br>
 **Machine Learning Algorithms:** <br>
 	* Classifiers: Multinomial Naive Bayes (MNB), Support Vector Machine (SVM)<br>
 **Machine Learning Packages:** sklearn.svm.LinearSVC, sklearn.naive_bayes.MultinomialNB <br>
-**Other Notable Packages:** nltk,pandas,numpy,sklearn.feature_extraction.text.CountVectorizer,sklearn.feature_extraction.text.TfidfVectorizer <br>
+**Other Notable Packages:** nltk, pandas, numpy, sklearn.feature_extraction.text.CountVectorizer, sklearn.feature_extraction.text.TfidfVectorizer <br>
 
 
 # Project Requirements:
